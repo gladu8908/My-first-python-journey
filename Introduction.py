@@ -1,53 +1,52 @@
-#1.
+"""
+Introduction to Python Basics
 
-#Running My first PYTHON SCRIPT
+This script contains my first Python experiments while learning:
+- Printing output
+- Basic arithmetic
+- Variables and updating values
+- Checking data types
 
-print("I Love Python")
+"""
 
-#2.
-#Python SYNTHAX
-
-#Pyhthon as calsulator
-
-print(19 + 17)
-print(99 - 12)
-
-
-#3.
-#more calculations
-
-print(9 * 2)
-print(120 / 12)
-
-#4
-#VARIABLES
-
-#Working With number Variables
-
-customer_age = 27
-account_balance = 120.50
-print(account_balance)
+def demo_printing():
+    print("I Love Python")
 
 
-#5
-#updating variable values
 
-account_balance = 20000.00
-is_millionaire = False
+def demo_basic_math():
+    print("Basic Math Operations:")
+    print("  Addition 19 + 17 =", 19 + 17)
+    print("  Subtraction 99 - 12 =", 99 - 12)
+    print("  Multiplication 9 * 2 =", 9 * 2)
+    print("  Division 120 / 12 =", 120 / 12) 
+    print()
 
 
-account_balance = 1300000.00
 
-is_millionaire = True
+def demo_variables():
+    print("Working with Variables:")
+    customer_age = 27
+    account_balance = 120.50
+    print("  Initial account balance:", account_balance)
 
-print(account_balance)
-print(is_millionaire)
+    # Updating values
+    account_balance = 20_000.00
+    is_millionaire = False
+    print("  Updated balance:", account_balance, "| Millionaire?", is_millionaire)
 
-#6
-#Checking data types
+    account_balance = 1_300_000.00
+    is_millionaire = True
+    print("  Updated balance:", account_balance, "| Millionaire?", is_millionaire)
+    print()
 
-customer_age = 49
-account_balance = 120078.89
-is_millionaire = False
+def demo_types():
+    print("Data Types:")
+    customer_age = 49            # int
+    account_balance = 120_078.89  # float
+    is_millionaire = False        # bool
 
-print(type(is_millionaire))
+    print("  customer_age:", customer_age, "| type:", type(customer_age).__name__)
+    print("  account_balance:", account_balance, "| type:", type(account_balance).__name__)
+    print("  is_millionaire:", is_millionaire, "| type:", type(is_millionaire).__name__)
+    print()
