@@ -8,25 +8,27 @@ This script contains my first Python experiments while learning:
 - Checking data types
 
 """
+#1.
 
-def demo_printing():
-    print("I Love Python")
+"""Running My first PYTHON SCRIPT"""
 
-
-
-def demo_basic_math():
-    print("Basic Math Operations:")
-    print("  Addition 19 + 17 =", 19 + 17)
-    print("  Subtraction 99 - 12 =", 99 - 12)
-    print("  Multiplication 9 * 2 =", 9 * 2)
-    print("  Division 120 / 12 =", 120 / 12) 
-    print()
+print("I Love Python")
 
 
 
-def demo_variables():
-    print("Working with Variables:")
-    customer_age = 27
+"""Basic arithmetic"""
+
+
+print(19 + 17)
+print(99 - 12)
+
+print(9 * 2)
+print(120 / 12)
+
+"""VARIABLES"""
+
+ print("Working with Variables:")
+ customer_age = 27
     account_balance = 120.50
     print("  Initial account balance:", account_balance)
 
@@ -40,8 +42,9 @@ def demo_variables():
     print("  Updated balance:", account_balance, "| Millionaire?", is_millionaire)
     print()
 
-def demo_types():
-    print("Data Types:")
+"""Checking data types"""
+
+ print("Data Types:")
     customer_age = 49            # int
     account_balance = 120_078.89  # float
     is_millionaire = False        # bool
@@ -50,3 +53,4 @@ def demo_types():
     print("  account_balance:", account_balance, "| type:", type(account_balance).__name__)
     print("  is_millionaire:", is_millionaire, "| type:", type(is_millionaire).__name__)
     print()
+
