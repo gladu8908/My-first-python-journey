@@ -8,7 +8,6 @@ This script contains my first Python experiments while learning:
 - Checking data types
 
 """
-#1.
 
 """Running My first PYTHON SCRIPT"""
 
@@ -24,6 +23,9 @@ print(99 - 12)
 
 print(9 * 2)
 print(120 / 12)
+
+
+
 
 """VARIABLES"""
 
@@ -41,6 +43,9 @@ print(120 / 12)
     is_millionaire = True
     print("  Updated balance:", account_balance, "| Millionaire?", is_millionaire)
     print()
+
+
+
 
 """Checking data types"""
 
