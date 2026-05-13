@@ -5,25 +5,17 @@ This repository tracks my progress as I learn Python step-by-step.
 
 ## Contents
 
-- `Introduction.py`: Basic printing, arithmetic, variables, updating values, and checking data types.
+# Python Journey 🚀
 
-## Goals
+**13/05/2026**
 
-- Build a solid foundation
-- Keep clean, readable examples
-- Show progression over time
+Today I practiced:
+- Variables
+- Basic math operations
+- Print statements
+- Syntax basics
 
-## Next Topics (Planned)
-
-- Strings and f-strings
-- Conditionals (`if/elif/else`)
-- Loops (`for`, `while`)
-- Functions and arguments
-- Lists, tuples, dictionaries
-- Modules and importing
-- Error handling (`try/except`)
-- File I/O
-- Classes and objects
+Currently progressing through the Introduction chapter and building a stronger Python foundation step by step.
 
 ## How to Run
 
